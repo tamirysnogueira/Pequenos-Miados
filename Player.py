@@ -20,7 +20,7 @@ class Player():
                                         event.key == K_ESCAPE): 
                 pygame.quit() 
                 sys.exit()         
-        if key[K_RIGHT] and settings.PLAYER_X < settings.dim_window[0] - 100:
+        if key[K_RIGHT] and settings.PLAYER_X < settings.dim_window[0] - 166:
             settings.PLAYER_X += 45
             settings.SPRITE_Y = 166  
         elif key[K_LEFT] and settings.PLAYER_X > 0:
